@@ -4,6 +4,7 @@ The Github repository contains the following:
 - The most relevant plots used in the thesis
 - This README file and a requirements.txt file to help install libraries and provie guidance
 - The mid-term and final presentation slides
+- The Wireshark extraction profile used for capturing the datasets
 
 ### **The code sections which actually run code and perform an action are commented at the top of the respective code box in the Juypter notebooks with: "Code Field X"**
 
@@ -11,6 +12,8 @@ All other code boxes only define methods or variables but do not directly execut
 To install the libraries needed to run the scripts, simply run:
 
 `pip install -r requirements.txt`
+
+Python 3.12 is required to run the code locally.
 
 ## Labeling script (dataset_labeling.ipynb):
 The script requires a raw dataset with a defined path. Please note that certain parameters, such as the labeling conditions for the phone, may depend on the dataset. These variables are commented on in the code directly to know which to use and how to change them. The already labeled datasets are available in Sharepoint. Below, the code fields and their purpose are explained:
